@@ -1,0 +1,83 @@
+.container {
+  height: 110vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../public/images/background6.jpg");
+  background-position: 50% 60%;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  transform: translate3d();
+  width: 100%;
+  z-index: 1001;
+  padding-top: 10%;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  color: #fff;
+}
+
+.titleText {
+  font-size: 6rem;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.body {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: left;
+  width: 90%;
+}
+
+.bodyText {
+  width: 45%;
+  font-size: 22px;
+  line-height: 32px;
+  word-spacing: 3px;
+  color: rgba(255, 255, 255, 0.856);
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.cardsRow {
+  display: flex;
+  justify-content: flex-start;
+  width: 45%;
+  margin-top: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 300px;
+  /* height: 225px; */
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.cardTitle {
+  text-align: center;
+  padding: 5px;
+  height: 50px;
+}
+
+.cardDesc {
+  padding: 10px;
+}
